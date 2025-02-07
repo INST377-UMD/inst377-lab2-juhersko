@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form- Lab2</title> 
+
+    <style> 
+    body {
+        background-color: lightcoral;
+
+    }
+
+    .submit-button{
+        background-color: #0fdb38; 
+        color: white;
+        margin-top: 30px; 
+    }    
+
+    
+    .submit-button:hover {
+    background-color: #b50b38; 
+}
+
+
+    .modify_text_boxes {
+        margin: 23px;
+
+}
+
+    .modify_text_boxes label {
+        font-size: 25px;
+}
+       
+    </style> 
+</head>
+
+<body> 
+<h1> Lab 2 Form- INST377 </h1>
+<form name="form" method="get" action="lab2_thanks.html">
+    <div class = "modify_text_boxes" >
+    <label for="firstname"> First name:</label>
+    <input type="text" id="firstname" class="firstnameBox" required> 
+    <br>
+    <label for="lastname"> Last name:</label>
+    <input type="text" id="lastname" required>
+    <br> 
+    <label for="datetime-local">Date:</label>
+    <input type="datetime-local" id="inquiryDate" required>
+    <br>
+    </div>
+    <button type="submit" class = "submit-button" > 
+        Submit
+    </button>
+</form>
+</body> 
